@@ -4,7 +4,7 @@ import LogoPlatinum from '../../assets/image/logo platinum png-02.png';
 
 const AcercaP = () => {
   return (
-    <section>
+    <section className='bg-white'>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
         <div className="order-first md:order-first">
           <img

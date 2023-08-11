@@ -6,9 +6,10 @@ import AcercaP from './components/Platinum/AcercaP'
 import Footer from './components/Footer/Footer'
 import Avisopriv from './pages/Avisopriv'
 import Error404 from './components/Error/Error404'
-import Nova from './components/banner/Nova'
+import NovaPlus from './components/banner/NovaPlus'
 import Tour360 from './components/Tour360'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NovaPlusCarrusel from './components/NovaPlus/NovaPlusCarrusel'
 
 
 
@@ -39,7 +40,8 @@ const HomePage = () => {
           <Navbar />
           <Banner1 />
           <AcercaP />
-          <Nova/>
+          <NovaPlus/>
+          <NovaPlusCarrusel/>
           <Tour360 />
           <Footer />
         </div>

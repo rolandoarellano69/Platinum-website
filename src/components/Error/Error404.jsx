@@ -2,11 +2,11 @@ import React from 'react'
 
 const Error404 = () => {
   return (
- <>
- <section className="flex flex-column items-center justify-center text-center">
-  <h1>Error 404<span>The page you are looking for does not exist</span></h1>
- </section>
- </>
+
+ <div className=" text-gray-200 bg-[#1c2e60] p-[420px] flex flex-col justify-center items-center text-center">
+  <h1 className='text-3xl'>Error 404 |<span className='text-xl'> La página que buscas no existe :(</span></h1>
+ </div>
+ 
   )
 }
 
