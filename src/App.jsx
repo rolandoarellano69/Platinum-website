@@ -6,10 +6,12 @@ import AcercaP from './components/Platinum/AcercaP'
 import Footer from './components/Footer/Footer'
 import Avisopriv from './pages/Avisopriv'
 import Error404 from './components/Error/Error404'
-import NovaPlus from './components/banner/NovaPlus'
+import NovaPlus from './components/NovaPlus/NovaPlus'
 import Tour360 from './components/Tour360'
+import Nova from './components/Nova/Nova'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NovaPlusCarrusel from './components/NovaPlus/NovaPlusCarrusel'
+import NovaCarrusel from './components/Nova/NovaCarrusel'
 
 
 
@@ -40,6 +42,8 @@ const HomePage = () => {
           <Navbar />
           <Banner1 />
           <AcercaP />
+          <Nova/>
+          <NovaCarrusel/>
           <NovaPlus/>
           <NovaPlusCarrusel/>
           <Tour360 />
