@@ -12,6 +12,9 @@ import Nova from './components/Nova/Nova'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NovaPlusCarrusel from './components/NovaPlus/NovaPlusCarrusel'
 import NovaCarrusel from './components/Nova/NovaCarrusel'
+import Amenidades from './components/Amenidades/Amenidades'
+import Mapa from './components/Mapa/Mapa'
+import Formulario from './components/Formulario/Formulario'
 
 
 
@@ -46,7 +49,10 @@ const HomePage = () => {
           <NovaCarrusel/>
           <NovaPlus/>
           <NovaPlusCarrusel/>
+          <Amenidades/>
           <Tour360 />
+          <Mapa/>
+          <Formulario/>
           <Footer />
         </div>
       </div>

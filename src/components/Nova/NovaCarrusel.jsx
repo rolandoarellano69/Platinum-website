@@ -4,13 +4,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import NovaPlusN1 from '../../assets/image/plantas arquitectonicas-18.png'
 import NovaPlusN2 from '../../assets/image/plantas arquitectonicas-19.png'
-import NovaPlusN3 from '../../assets/image/plantas arquitectonicas-20.png'
 import IconNovaPeek from '../../assets/image/iconos atributos-15.jpg'
 const NovaCarrusel = () => {
   return (
-    <div className="grid grid-cols-2 grid-rows-1 gap-0">
-      <div className='flex items-center bg-[#404040] justify-center'>
-      <div className='content-center '>
+    <div className=" border-t-[20px] border-[#1c2e60] grid grid-cols-1 md:grid md:grid-cols-2 grid-rows-1 gap-0">
+      <div className=' md:flex items-center bg-[#404040] justify-center'>
       <Carousel
             infiniteLoop={true}
             showThumbs={false}
@@ -18,7 +16,7 @@ const NovaCarrusel = () => {
             showArrows={true}
             autoPlay={true}
             interval={3000}
-            className=" w-[450px] h-auto"
+            className=" w-[390px] h-auto"
           >
       <div className='w-full h-auto'>
               <img src={NovaPlusN1} alt="Nivel 1" className='w-full h-auto' />
@@ -27,7 +25,6 @@ const NovaCarrusel = () => {
               <img src={NovaPlusN2} alt="Planta Alta" className='w-full h-auto' />
             </div>
         </Carousel>
-      </div>
       </div>
     <div className='p-8 bg-white'>
     <div className='h-auto w-auto items-center justify-center pl-10 pr-10'> <img src={IconNovaPeek} alt="" /></div>

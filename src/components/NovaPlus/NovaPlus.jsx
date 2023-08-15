@@ -10,10 +10,10 @@ import NovaPlusNamePeek from '../../assets/image/iconos atributos platinum-06.pn
 const NovaPlus = () => {
 
   return (
-    <div className="bg-white  ">
+    <div className="bg-white  border-t-[20px] border-[#1c2e60]">
       <div className="md:flex md:justify-between">
         <div className="md:w-2/3 md:pr-4">
-          <img src={NovaPlusPeek} alt="Nova Plus" className="w-full h-auto shadow-2xl" />
+          <img src={NovaPlusPeek} alt="Nova Plus" className="w-full h-full shadow-2xl" />
         </div>
         <div className="md:w-1/3 md:pl-4">
           <div className="text-center pt-6">
