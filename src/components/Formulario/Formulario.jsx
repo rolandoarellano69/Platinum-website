@@ -5,9 +5,9 @@ import Peek2 from '../../assets/image/SALA PLATINUM 4K.jpg'
 import Peek3 from '../../assets/image/COMEDOR PLATINUM 4K.jpg'
 const Formulario = () => {
   return (
-    <div className='bg-[#404040] p-8  text-white border-t-[20px] border-[#1c2e60] '>
+    <div id='Formulario' className='bg-[#404040] p-8  text-white border-t-[20px] border-[#1c2e60] '>
         <h1 className='text-center text-[55px] m-4 font-thin '>Contactanos</h1>
-      <div className="md:grid grid-cols-3 md:grid-rows-1 gap-4">
+      <div  className="md:grid grid-cols-3 md:grid-rows-1 mb-8 gap-4">
         <div>
 <iframe width='100%' height='690px' src='https://crm.zoho.com/crm/WebFormServeServlet?rid=ab9ffff6c56c4470d599b792c0f9089b8a29fc4805fdf067bd110e444a3a40begid1250c6f36c588699a4f2cad1500d2088c72dea3f78890524ab07eb17039e409a' className=''></iframe>
           {/* <form action="">
@@ -34,9 +34,9 @@ const Formulario = () => {
 
           </form> */}
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2 ">
          
-            <Carousel
+        <Carousel
                infiniteLoop={true}
                showThumbs={false}
                showStatus={false}
@@ -54,7 +54,6 @@ const Formulario = () => {
             <div className='w-full h-auto'>
               <img src={Peek3} alt="Planta Alta" className='w-full h-auto' />
             </div>
-
             </Carousel>
         </div>
       </div></div>

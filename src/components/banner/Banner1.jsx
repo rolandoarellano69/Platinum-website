@@ -29,7 +29,7 @@ const Banner1 = () => {
 
 
       <div className='absolute bg-black bg-opacity-40 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center sm:w-2/3 md:w-full'>
-  <img src={logoBanner} alt='HERO' className=' md:w-[585px] h-auto mx-auto md:mt-20 mb-20' />
+  <img id='hero' src={logoBanner} alt='HERO' className=' md:w-[585px] h-auto mx-auto md:mt-20 mb-20' />
   <button className='hidden md:block px-10 py-2 text-white bg-[#1c2e60] hover:bg-[#32426f] font-thin'>
     Recorrido 360°
   </button>

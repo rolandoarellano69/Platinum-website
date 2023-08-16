@@ -14,13 +14,13 @@ const AcercaP = () => {
           />
         </div>
         <div className="bg-[#404040] flex flex-col justify-center items-center md:p-8 order-first md:order-last">
-          <img src={LogoPlatinum} alt="Logo Platinum" className="w-[492px] h-auto mb-4 " />
-          <h3 className="text-gray-200 text-lg font-semibold text-center md:text-justify px-4">
+          <img id='AcercaP' src={LogoPlatinum} alt="Logo Platinum" className="w-[492px] h-auto mb-4 p-8 " />
+          <h3 className="text-gray-200 text-lg font-normal text-center md:text-justify px-4">
             Platinum Residencial es un exclusivo desarrollo de solo 18 casas ubicado en un punto muy estratégico de la
             ciudad, con el dinamismo y la actividad comercial que tu estilo de vida requiere, invierte en una zona de alta
             plusvalía.
           </h3>
-          <h5 className="mt-4 mb-4 text-gray-200 text-lg font-semibold text-center">
+          <h5 className='mt-4 mb-4 text-gray-200 text-lg font-semibold text-center'>
             PLATINUM, El residencial que lo tiene todo.
           </h5>
         </div>

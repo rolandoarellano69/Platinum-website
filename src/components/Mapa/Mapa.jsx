@@ -15,7 +15,7 @@ const Mapa = () => {
     }
   };
   return (
-    <div className='relative bg-white'>
+    <div id='ubicacion'className='relative bg-white'>
     <img
       src={MapaPeek}
       alt='Mapa'
@@ -23,7 +23,7 @@ const Mapa = () => {
       onClick={toggleMap}
     />
     {showMap && (
-      <div
+      <div 
         className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 z-10 flex items-center justify-center'
         onClick={handleOverlayClick} // Cierra el mapa al hacer clic en el fondo oscuro
       >

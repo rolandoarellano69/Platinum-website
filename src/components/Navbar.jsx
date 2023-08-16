@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import Logo from './MenuItems/Logo';
+import AcercaP from './Platinum/AcercaP';
+import Tour360 from './Tour360';
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
+import { Link } from 'react-scroll'
+import Formulario from './Formulario/Formulario';
+import Mapa from './Mapa/Mapa';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,18 +20,49 @@ const Navbar = () => {
         <Logo />
       </div>
       <nav className='flex-1 text-center text-gray-200 hidden md:block'>
-        <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
+        <Link to='AcercaP'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2 cursor-pointer'>
+          PROYECTO </Link>
+
+        {/* <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
           PROYECTO
-        </a>
-        <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold  border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
+        </a> */}
+        {/* <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold  border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
           360 TOUR
-        </a>
-        <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
+        </a> */}
+          <Link to='Tour360'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2 cursor-pointer'>
+          360 TOUR </Link>
+
+        {/* <a href={Mapa} className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
           UBICACION
-        </a>
-        <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold  border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
+        </a> */}
+          <Link to='ubicacion'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2 cursor-pointer'>
+          UBICACION</Link>
+
+        {/* <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold  border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
           CONTACTO
-        </a>
+        </a> */}
+          <Link to='Formulario'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2 cursor-pointer'>
+          CONTACTO </Link>
       </nav>
       <div className='ml-auto mr-4 md:hidden'>
         {isMenuOpen ? (
@@ -43,18 +79,42 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className='md:hidden absolute top-16 w-full  bg-[#1c2e60]'>
-          <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
+          <Link to='AcercaP' 
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='block py-2 text-white hover:bg-[#404040] text-center'>PROYECTO</Link>
+          {/* <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
             PROYECTO
-          </a>
-          <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
+          </a> */}
+            <Link to='Tour360'  
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='block py-2 text-white hover:bg-[#404040] text-center'>360 TOUR</Link>
+          {/* <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
             360 TOUR
-          </a>
-          <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
+          </a> */}
+            <Link to='ubicacion'  
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='block py-2 text-white hover:bg-[#404040] text-center'>UBICACION</Link>
+          {/* <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
             UBICACION
-          </a>
-          <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
+          </a> */}
+            <Link to='Formulario'  
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className='block py-2 text-white hover:bg-[#404040] text-center'>CONTACTO</Link>
+          {/* <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
             CONTACTO
-          </a>
+          </a> */}
         </div>
       )}
       <button className='hidden md:block mr-8 md:mr-16 bg-[#1c2e60] hover:bg-[#32426f] text-white text-xs font-bold px-6 py-4'>
