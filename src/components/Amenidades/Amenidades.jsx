@@ -6,7 +6,7 @@ import BardaperiPeek from '../../assets/image/iconos atributos platinum-08.png'
 import UbicacionPeek from '../../assets/image/iconos atributos platinum-09.png'
 import AreasVerdesPeek from '../../assets/image/iconos atributos platinum-10.png'
 import VideoVigiPeek from '../../assets/image/iconos atributos platinum-11-11.png'
-import ParkingPeek from '../../assets/image/iconos atributos platinum-12.png'
+import ParkingPeek from '../../assets/image/icono estacionamiento.png'
 import IconAmenidadesPeek from '../../assets/image/iconos atributos platinum-13.png'
 
 const Amenidades = () => {
@@ -23,11 +23,12 @@ const Amenidades = () => {
             <img src={AreasVerdesPeek} alt='Áreas Verdes' className='w-full' />
           </div>
           <div className='flex gap-8 '>
-            <img src={AccsControlPeek} alt='Video Vigilancia' className='w-full' />
             <img src={BardaperiPeek} alt='Estacionamiento' className='w-full' />
+            <img src={VideoVigiPeek} alt='Video Vigilancia' className='w-full' />
           </div>
           <div className='flex gap-8'>
-            <img src={VideoVigiPeek} alt='Video Vigilancia' className='w-full' />
+            
+            <img src={AccsControlPeek} alt='Video Vigilancia' className='w-full' />
             <img src={ParkingPeek} alt='Estacionamiento' className='w-full h-auto' />
           </div>
 

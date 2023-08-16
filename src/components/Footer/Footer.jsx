@@ -65,11 +65,11 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase "></h2>
               <ul className="text-gray-200 flex gap-10 font-medium">
                 <li className="mb-4 ">
-                  <RiFacebookBoxFill className='hover:text-gray-200 cursor-pointer text-[46px]' onClick={() => window.open('https://www.facebook.com/ResidencialAureo')}/>
+                  <RiFacebookBoxFill className='hover:text-gray-200 cursor-pointer text-[46px]' onClick={() => window.open('https://www.facebook.com/PlatinumResidencial')}/>
                   {/* <a href="#" class="hover:underline">Privacy Policy</a> */}
                 </li>
                 <li>
-                  <RiInstagramLine className='hover:text-gray-200 cursor-pointer text-[46px]' onClick={() => window.open('https://www.instagram.com/residencialaureo/?igshid=YmMyMTA2M2Y%3D')}/>
+                  <RiInstagramLine className='hover:text-gray-200 cursor-pointer text-[46px]' onClick={() => window.open('https://www.instagram.com/platinumresidencial/')}/>
                   {/* <a href="#" class="hover:underline">Terms &amp; Conditions</a> */}
                 </li>
               </ul>

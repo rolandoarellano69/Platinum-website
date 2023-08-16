@@ -20,10 +20,10 @@ const Nova = () => {
         <hr className="w-16 h-1 mx-auto my-2 mt-8 bg-[#1c2e60]" />
         <div className="grid grid-cols-2 gap-4  md:mt-28 mt-8 md:grid-cols-1 md:gap-4 text-center">
           <div className="flex items-center justify-center">
-            <img src={CamaPeek} alt="Cama" className="w-16 md:w-24 h-auto" />
+            <img src={CamaPeek} alt="Cama" className=" w-16  md:w-28 h-auto" />
             <img src={GanchoPeek} alt="Gancho" className="w-16 md:w-24 h-auto" />
           </div>
-          <div className="flex items-center mr-10 mb-5 justify-center md:gap-2">
+          <div className="flex items-center justify-center mb-8">
             <img src={LavaPeek} alt="Lava" className="w-16 md:w-24 h-auto" />
             <img src={CocheraPeek} alt="Cochera" className="w-16 md:w-24 h-auto" />
           
