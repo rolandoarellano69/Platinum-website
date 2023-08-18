@@ -13,7 +13,8 @@ const NovaCarrusel = () => {
             infiniteLoop={true}
             showThumbs={false}
             showStatus={false}
-            showArrows={true}
+            showArrows={false}
+            showIndicators={false}
             autoPlay={true}
             interval={3000}
             className=" w-[390px] h-auto"
@@ -52,7 +53,7 @@ const NovaCarrusel = () => {
               </li>
             </ol>
           </li>
-          <li className=' font-thin p-8 text-2xl'>
+          <li className=' font-thin p-4 text-2xl'>
             <span className='font-thin rounded-tl-lg bg-[#1c2e60] p-2 text-gray-200 text-3xl'>Planta Alta</span>
             <ol className='pl-6 mt-4 space-y-1'>
               <li className='flex items-center'>

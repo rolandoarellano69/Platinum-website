@@ -38,7 +38,7 @@ function NovaPlusCarrusel() {
                 </li>
               </ol>
             </li>
-            <li className=' font-thin p-8 text-2xl'>
+            <li className=' font-thin p-4 text-2xl'>
               <span className='font-thin rounded-tl-lg bg-[#1c2e60] p-2 text-gray-200 text-3xl'>Planta Alta</span>
               <ol className='pl-6 mt-4 space-y-1'>
                 <li className='flex items-center'>
@@ -59,7 +59,7 @@ function NovaPlusCarrusel() {
                 </li>
               </ol>
             </li>
-            <li className='mb-4 font-thin p-8 text-2xl'>
+            <li className='mb-4 font-thin p-4 text-2xl'>
               <span className='font-thin rounded-tl-lg bg-[#1c2e60] p-2 text-gray-200 text-3xl'>Roof Top</span>
               <ol className='pl-6 mt-4 space-y-1'>
                 <li className='flex items-center'>
@@ -81,7 +81,8 @@ function NovaPlusCarrusel() {
             infiniteLoop={true}
             showThumbs={false}
             showStatus={false}
-            showArrows={true}
+            showIndicators={false}
+            showArrows={false}
             autoPlay={true}
             interval={2000}
             className=" w-[390px] h-auto"

@@ -59,8 +59,7 @@ const Footer = () => {
                 </tbody>
               </table>
             </div>
-            <div>
-            </div>
+          
             <div className=''>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase "></h2>
               <ul className="text-gray-200 flex gap-10 font-medium">

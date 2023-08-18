@@ -11,7 +11,7 @@ import IconAmenidadesPeek from '../../assets/image/iconos atributos platinum-13.
 
 const Amenidades = () => {
   return (
-    <div className='bg-white  w-full h-full p-8 border-t-[20px] border-[#1c2e60]'>
+    <div className='bg-white  w-full h-full p-8 border-t-[20px] border-b-[20px] border-[#1c2e60]'>
       <div className='md:hidden grid grid-cols-1 gap-2 m-2 justify-center'>
         {/* Organizar las imágenes en parejas */}
         <div className='flex justify-center items-center'>

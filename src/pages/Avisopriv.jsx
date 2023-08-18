@@ -1,5 +1,6 @@
 import React from 'react'
 import logoplatimun from '../assets/image/logo platinum png-03.png'
+import { Link } from 'react-router-dom'
 
 const Avisopriv = () => {
   return (
@@ -136,7 +137,7 @@ const Avisopriv = () => {
           </div>
         </div>
       </div>
-      <a href="#" className='mb-20  text-lg font-bold border-b-8 border-[#1c2e60]'>Regresar al Inicio</a>
+      <Link to="/" className='mb-20  text-lg font-bold border-b-8 border-[#1c2e60]'>Regresar al Inicio</Link>
     </div>
   )
 }
