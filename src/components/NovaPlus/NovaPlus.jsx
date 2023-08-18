@@ -23,11 +23,11 @@ const NovaPlus = () => {
           <hr className="w-16 h-1 mx-auto my-2 mt-8 bg-[#1c2e60]" />
           <div className="grid grid-cols-2 gap-4  md:mt-28 mt-8 md:grid-cols-1 md:gap-4 text-center">
             <div className="flex items-center justify-center pr-8">
-              <img src={CamaPeek} alt="Cama" className="w-16 md:w-24 h-auto" />
-              <img src={GanchoPeek} alt="Gancho" className="w-16 md:w-24 h-auto" />
+              <img src={CamaPeek} alt="Cama" className="w-16 md:w-24 h-auto mb-4" />
+              <img src={GanchoPeek} alt="Gancho" className="w-16 md:w-24 h-auto mb-4" />
             </div>
             <div className="flex items-center justify-center mb-8 pr-8">
-              <img src={LavaPeek} alt="Lava" className="w-16 md:w-24 h-auto" />
+              <img src={LavaPeek} alt="Lava" className="w-16 md:w-24 h-auto md:mb-[3px] mb-1" />
               <img src={CocheraPeek} alt="Cochera" className="w-16 md:w-24 h-auto" />
               <img src={TerrazaPeek} alt="Terraza" className="w-16 md:w-24 h-auto" />
             </div>

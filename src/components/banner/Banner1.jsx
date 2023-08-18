@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { RiArrowDownSLine } from 'react-icons/ri';
 import Banner1Peek from '../../assets/image/ACCESO ENTRADA PLATINUM 4K.jpg';
 import Banner2Peek from '../../assets/image/ACCESO SALIDA PLATINUM 4K.jpg';
 import logoBanner from '../../assets/image/logo platinum png-04.png';
@@ -16,27 +17,31 @@ const Banner1 = () => {
   }, []);
 
   return (
-    <div className='relative'>
-      <div className='grid grid-cols-1'>
-        <img
-          src={images[currentImageIndex]}
-          alt={`Image ${currentImageIndex + 1}`}
-          className='w-full h-auto sm:w-2/3 md:w-full'
-        />
-      </div>
-      <div className='absolute w-full h-full top-0 left-0'>
-      <div className='w-full h-full absolute top-0 left-0 bg-black bg-opacity-10 sm:w-2/3 md:w-full' />
+    <div
+    className='relative min-h-screen flex items-center justify-center'
+    style={{ backgroundImage: `url(${images[currentImageIndex]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+  >
+    <div className='absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center'>
+      <img
+        id='hero'
+        src={logoBanner}
+        alt='HERO'
+        className='w-[300px] h-auto md:w-[400px] lg:w-[500px] mx-auto mb-6'
+      />
 
-
-      <div className='absolute bg-black bg-opacity-40 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center sm:w-2/3 md:w-full'>
-  <img id='hero' src={logoBanner} alt='HERO' className=' md:w-[585px] h-auto mx-auto md:mt-20 mb-20' />
-  <button className='hidden md:block px-10 py-2 text-white bg-[#1c2e60] hover:bg-[#32426f] font-thin'>
-    Recorrido 360°
-  </button>
-</div>
-
-      </div>
+      <button className='hidden md:block px-10 py-2 text-white bg-[#1c2e60] hover:bg-[#32426f] font-thin'>
+        Recorrido 360°
+      </button>
     </div>
+
+    <div className='md:hidden absolute bottom-10 left-1/2 transform -translate-x-1/2'>
+        <p className='text-white mb-1'>Desliza para ver más</p>
+        <div className='flex items-center justify-center'>
+          <RiArrowDownSLine className='text-white text-4xl animate-bounce' />
+        </div>
+      </div>
+  </div>
+
   );
 };
 

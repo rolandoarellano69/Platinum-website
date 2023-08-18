@@ -12,23 +12,24 @@ import IconAmenidadesPeek from '../../assets/image/iconos atributos platinum-13.
 const Amenidades = () => {
   return (
     <div className='bg-white  w-full h-full p-8 border-t-[20px] border-[#1c2e60]'>
-      <div className='md:hidden grid grid-cols-1 gap-2 justify-center'>
+      <div className='md:hidden grid grid-cols-1 gap-2 m-2 justify-center'>
         {/* Organizar las imágenes en parejas */}
         <div className='flex justify-center items-center'>
           <img src={IconAmenidadesPeek} alt='Icono Amenidades' className='w-full ' />
         </div>
         <div className='w-2/4 p-4 '>
-          <div className='flex gap-8  '>
+          <div className='flex gap-7 p-1 '>
             <img src={UbicacionPeek} alt='Ubicación' className='w-full' />
-            <img src={AreasVerdesPeek} alt='Áreas Verdes' className='w-full' />
+           
+            <img src={AccsControlPeek} alt='Video Vigilancia' className='w-full h-auto' />
           </div>
-          <div className='flex gap-8 '>
+          <div className='flex gap-[38px] p-1'>
             <img src={BardaperiPeek} alt='Estacionamiento' className='w-full' />
-            <img src={VideoVigiPeek} alt='Video Vigilancia' className='w-full' />
+            <img src={VideoVigiPeek} alt='Video Vigilancia' className='w-full ' />
           </div>
-          <div className='flex gap-8'>
+          <div className='flex gap-[30px] '>
             
-            <img src={AccsControlPeek} alt='Video Vigilancia' className='w-full' />
+          <img src={AreasVerdesPeek} alt='Áreas Verdes' className='w-full' />
             <img src={ParkingPeek} alt='Estacionamiento' className='w-full h-auto' />
           </div>
 

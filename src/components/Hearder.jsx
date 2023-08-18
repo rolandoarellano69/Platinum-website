@@ -1,12 +1,13 @@
 import React from 'react';
+import BackToStartBtn from './BotonBack/BackToStartBtn';
 import { RiFacebookCircleFill, RiInstagramLine, RiMapPin2Fill, RiPhoneFill } from 'react-icons/ri';
 
 const Header = () => {
   return (
-    <header className='flex flex-col md:flex-row items-center justify-between h-[12vh] bg-[#A7A9AC] p-4 md:p-8 text-gray-200'>
+    <header id='home' className='flex flex-col md:flex-row items-center justify-between h-[12vh] bg-[#A7A9AC] p-4 md:p-8 text-gray-200'>
       <div className='flex gap-4 mb-[5px]'>
-        <RiFacebookCircleFill size={20} />
-        <RiInstagramLine size={20} />
+        <RiFacebookCircleFill size={20} onClick={() => window.open('https://www.facebook.com/PlatinumResidencial')} className='cursor-pointer' />
+        <RiInstagramLine size={20} onClick={() => window.open('https://www.instagram.com/platinumresidencial/')} className='cursor-pointer' />
       </div>
       <div className='flex flex-col items-start justify-center md:flex-row md:items-center md:gap-4  md:mt-0'>
         <div className='flex items-center gap-2 md:hidden'>

@@ -10,7 +10,7 @@ const AcercaP = () => {
           <img
             src={FamilyPeek}
             alt="Familia Feliz"
-            className="w-full h-full object-cover object-center p-20"
+            className="w-full h-full object-cover object-center p-2 md:p-28"
           />
         </div>
         <div className="bg-[#404040] flex flex-col justify-center items-center md:p-8 order-first md:order-last">

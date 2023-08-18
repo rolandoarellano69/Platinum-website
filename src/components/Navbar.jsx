@@ -118,7 +118,7 @@ const Navbar = () => {
         </div>
       )}
       <button className='hidden md:block mr-8 md:mr-16 bg-[#1c2e60] hover:bg-[#32426f] text-white text-xs font-bold px-6 py-4'>
-        AGENDAR UNA VISITA
+        AGENDAR UNA CITA
       </button>
     </header>
   );

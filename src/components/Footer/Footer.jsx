@@ -13,10 +13,10 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <Link to="/" class=" flex  gap-2 items-center">
               {/* <img src="/images/LOGO AUREO -01.png" class="h-8 mr-3" alt="FlowBite Logo" /> */}
-              <img src={logoBanner} alt="" className='h-[106px] w-[164px] mb-4 ' />
-              <img src={Logofooter} alt="" className='h-[60px] w-[163px] mb-4 ' />
+              <img src={logoBanner} alt="" className='h-[100px] w-[164px] mb-0 ' />
+              <img src={Logofooter} alt="" className='h-[60px] w-[164px] mb-4 ' />
             </Link>
-            <span className="self-center text-sm   text-gray-200 ">Platinum Residencial es un desarrollo <br /> inmobiliario de Grupo OBR</span>
+            <span className="self-center text-sm   text-gray-200 ">Platinum Residencial es un desarrollo <br /> inmobiliario de OBR Group</span>
             <div className='flex relative '>
               <RiPhoneFill className='mt-10 text-gray-200 text-[34px]  ' /> <span className=' text-[#B4B1B2] text-xl absolute bottom-0 left-10 '>663 113 8555 </span>
             </div>
@@ -24,9 +24,9 @@ const Footer = () => {
 
           <div className="grid grid-cols-2  gap-16 sm:gap-6 sm:grid-cols-3">
             <div className=' right-0'>
-              <h2 className="mb-6 text-sm text-gray-200 uppercase ">HORARIOS DE ATENCIÓN</h2>
-              <table className='w-full'>
-                <tbody>
+              <h2 className="mb-6 text-sm m-8 text-gray-200 uppercase ">HORARIOS DE ATENCIÓN</h2>
+              <table className='w-full m-8'>
+                <tbody >
                   <tr className='text-[#898783]' >
                     <td>Lunes</td>
 
@@ -52,7 +52,7 @@ const Footer = () => {
 
                     <td className='text-gray-200  text-right'>9am - 6pm</td>
                   </tr>
-                  <tr className='text-[#898783]'>
+                  <tr className='text-[#898783] '>
                     <td>Sab - Dom</td>
                     <td className='text-gray-200  text-right'>10am - 4pm</td>
                   </tr>

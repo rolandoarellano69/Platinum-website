@@ -3,7 +3,7 @@ import logoplatimun from '../assets/image/logo platinum png-03.png'
 
 const Avisopriv = () => {
   return (
-    <div id="avisopriv" className='flex flex-col items-center'>
+    <div id="avisopriv" className=' bg-white flex flex-col items-center'>
       <div className=''>
         <img src={logoplatimun} alt="" className='h-60' />
       </div>

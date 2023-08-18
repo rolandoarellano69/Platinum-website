@@ -15,13 +15,15 @@ import NovaCarrusel from './components/Nova/NovaCarrusel'
 import Amenidades from './components/Amenidades/Amenidades'
 import Mapa from './components/Mapa/Mapa'
 import Formulario from './components/Formulario/Formulario'
+import BackToStartBtn from './components/BotonBack/BackToStartBtn'
+import WhatsappBtn from './components/BtnWhatsapp/WhatsappBtn'
 
 
 
 const App = () => {
   return (
     <Router>
-      <div className="h-full w-full">
+      <div>
 
         <div className='relative'>
 
@@ -39,7 +41,7 @@ const App = () => {
 const HomePage = () => {
   return (
     <>
-      <div className='h-full w-full'>
+      <div>
         <Hearder />
         <div className='relative'>
           <Navbar />
@@ -53,6 +55,8 @@ const HomePage = () => {
           <Tour360 />
           <Mapa/>
           <Formulario/>
+          <BackToStartBtn/>
+          <WhatsappBtn/>
           <Footer />
         </div>
       </div>
