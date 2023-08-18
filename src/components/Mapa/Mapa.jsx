@@ -15,10 +15,10 @@ const Mapa = () => {
     }
   };
   return (
-    <div id='ubicacion' className='w-full  relative bg-white border-t-[20px] border-[#1c2e60]'>
+    <div id='ubicacion' className='w-full relative bg-white border-t-[20px] border-[#1c2e60]'>
 
-      <h1>
-        <span className='text-[#1c2e60] pl-2 font-bold text-2xl'>Ubicación</span>
+      <h1 className='p-4'>
+        <span className='text-[#1c2e60]  font-bold text-[46px]'>Ubicación</span>
       </h1>
       <img
         src={MapaPeek}
@@ -28,10 +28,10 @@ const Mapa = () => {
       />
       {showMap && (
         <div
-          className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 z-10 flex items-center justify-center'
+          className='fixed top-0 left-0 w-full  bg-black bg-opacity-80 z-10 flex items-center justify-center'
           onClick={handleOverlayClick} // Cierra el mapa al hacer clic en el fondo oscuro
         >
-          <div className='relative'>
+          <div className='relative min-h-screen'>
             <img src={MapaPeek} alt='Mapa' className='w-full h-auto bg-white' />
             <button
               className='absolute top-0 right-0 m-4 text-[#1c2e60] p-2 bg-slate-400 rounded-full '

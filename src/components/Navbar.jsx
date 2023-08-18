@@ -51,7 +51,7 @@ const Navbar = () => {
           offset={-70}
           duration={500}
           className='mx-2 md:mx-4 text-sm md:text-base font-semibold border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2 cursor-pointer'>
-          UBICACION</Link>
+          UBICACIÓN</Link>
 
         {/* <a href="#" className='mx-2 md:mx-4 text-sm md:text-base font-semibold  border-b-2 border-transparent hover:border-[#A7A9AC] hover:pb-2'>
           CONTACTO
@@ -102,7 +102,7 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={500}
-          className='block py-2 text-white hover:bg-[#404040] text-center'>UBICACION</Link>
+          className='block py-2 text-white hover:bg-[#404040] text-center'>UBICACIÓN</Link>
           {/* <a href="#" className='block py-2 text-white hover:bg-[#404040] text-center'>
             UBICACION
           </a> */}
