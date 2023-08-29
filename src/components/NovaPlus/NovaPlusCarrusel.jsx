@@ -78,14 +78,13 @@ function NovaPlusCarrusel() {
       </div>
       <div className=' md:flex items-center bg-[#404040] justify-center'>
       <Carousel
-            infiniteLoop={true}
+           infiniteLoop={true}
             showThumbs={false}
-            onSwipeMove={true}
             showStatus={false}
-            showIndicators={false}
             showArrows={false}
+            showIndicators={false}
             autoPlay={true}
-            interval={2000}
+            interval={3000}
             className=" w-[390px] h-auto"
           >
       <div className='w-full h-auto'>
