@@ -20,7 +20,7 @@ const AcercaP = () => {
             ciudad, con el dinamismo y la actividad comercial que tu estilo de vida requiere, invierte en una zona de alta
             plusvalía.
           </h3>
-          <h5 className='mt-4 mb-4 text-gray-200 text-lg font-semibold text-center'>
+          <h5 className='mt-4 mb-4 text-gray-200 text-lg font-medium text-center'>
             PLATINUM, El residencial que lo tiene todo.
           </h5>
         </div>

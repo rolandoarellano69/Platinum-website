@@ -80,6 +80,7 @@ function NovaPlusCarrusel() {
       <Carousel
             infiniteLoop={true}
             showThumbs={false}
+            onSwipeMove={true}
             showStatus={false}
             showIndicators={false}
             showArrows={false}

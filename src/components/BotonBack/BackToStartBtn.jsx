@@ -21,15 +21,19 @@ const BackToStartBtn = () => {
   }, []);
 
   return (
-   <span
-      className={`fixed bottom-4 shadow-2xl border-4 right-4 py-2 px-2 items-center text-4xl bg-[#1c2e60] ${
-        showArrow ? 'hidden' : 'flex'
-      }`}
-    >
-      <Link to='home' smooth={true} duration={500}>
-        {showArrow ? <RiArrowDownSLine className='text-white' /> : <RiArrowUpSLine className='text-white' />}
-      </Link>
-    </span>
+    <span
+    className={`fixed bottom-4 shadow-2xl border-4 right-4 py-2 px-2 items-center text-4xl bg-[#1c2e60] ${
+      showArrow ? 'hidden' : 'flex'
+    } transition-colors duration-300 hover:bg-[#32426f] hover:opacity-80`}
+  >
+    <Link to='home' smooth={true} duration={500}>
+      {showArrow ? (
+        <RiArrowDownSLine className='text-white' />
+      ) : (
+        <RiArrowUpSLine className='text-white' />
+      )}
+    </Link>
+  </span>
   );
 };
 

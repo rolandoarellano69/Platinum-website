@@ -17,8 +17,8 @@ const Mapa = () => {
   return (
     <div id='ubicacion' className='w-full relative bg-white border-t-[20px] border-[#1c2e60]'>
 
-      <h1 className='p-4'>
-        <span className='text-[#1c2e60]  font-bold text-[46px]'>Ubicación</span>
+      <h1 className='p-8'>
+        <span className='text-[#1c2e60]  font-thin text-[46px]'>Ubicación</span>
       </h1>
       <img
         src={MapaPeek}

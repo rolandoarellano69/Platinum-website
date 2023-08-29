@@ -29,7 +29,7 @@ const Header = () => {
           </h4>
         </div>
         <div className='hidden md:flex items-center gap-2 mt-2 md:mt-0'>
-          <RiPhoneFill size={16} className='text-[#1c2e60]' />
+          <RiPhoneFill size={16} className='text-[#1c2e60]'/>
           <h4 className='text-xs md:text-base'>663 113 8555</h4>
         </div>
       </div>

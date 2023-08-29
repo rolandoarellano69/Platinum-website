@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='absolute top-0 left-0 right-0 bg-black bg-opacity-10 h-16 md:h-24 w-full flex items-center z-50'>
+    <header className='relative top-0 left-0 right-0 bg-[#1c2e60] h-16 md:h-24 w-full flex items-center z-50'>
       <div className='ml-8'>
         <Logo />
       </div>
@@ -117,7 +117,7 @@ const Navbar = () => {
           </a> */}
         </div>
       )}
-      <button className='hidden md:block mr-8 md:mr-16 bg-[#1c2e60] hover:bg-[#32426f] text-white text-xs font-bold px-6 py-4'>
+      <button className='hidden border md:block mr-8 md:mr-16 bg-[#1c2e60] hover:bg-[#32426f] text-white text-xs font-bold px-6 py-4'>
         AGENDAR UNA CITA
       </button>
     </header>

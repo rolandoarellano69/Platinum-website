@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <div>
       <Link to='home'>
-      <img src={LogoPeek} alt="Imagen Logo"  className='h-[93px] w-[167px] '/>
+      <img src={LogoPeek} alt="Imagen Logo"  className='h-[93px] w-[167px] cursor-pointer'/>
       </Link>
     </div>
   )
