@@ -11,9 +11,9 @@ import IconNovaPlusPeek from '../../assets/image/nova-16.png'
 
 function NovaPlusCarrusel() {
   return (
-    <div className="border-t-[20px] border-[#1c2e60] grid grid-cols-1 md:grid md:grid-cols-2 grid-rows-1 gap-0">
-      <div className='p-8 bg-white'>
-      <div className='h-auto w-auto items-center justify-center pl-10 pr-10'> <img src={IconNovaPlusPeek} alt=""className='' /></div>
+    <div className="border-t-[20px] border-[#1c2e60] grid grid-cols-1 md:grid md:grid-cols-3 grid-rows-1 gap-0">
+      <div className='col-span-2 p-8 bg-white'>
+      <div className='h-auto w-auto flex items-center justify-center pl-10 pr-10'> <img src={IconNovaPlusPeek} alt=""className='lg:w-[525px]' /></div>
       <ul>
             <li className='p-4 font-thin text-2xl'>
               <span className='font-thin rounded-tl-lg bg-[#1c2e60] text-gray-200 p-2 text-3xl'>
@@ -85,7 +85,7 @@ function NovaPlusCarrusel() {
             showIndicators={false}
             autoPlay={true}
             interval={3000}
-            className=" w-[390px] h-auto"
+            className=" md:w-[100%] h-auto"
           >
       <div className='w-full h-auto'>
               <img src={NovaPlusN1} alt="Nivel 1" className='w-full h-auto' />
