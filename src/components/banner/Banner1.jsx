@@ -29,11 +29,11 @@ const Banner1 = () => {
    }, []);
 
    return (
-    <div className="flex w-full ">
+    <div className="flex w-full border-b-[20px] border-[#1c2e60]">
       {/* Video para pantallas de escritorio (>= 768px) */}
       <video 
         ref={videoRef1}
-        className="hidden md:block w-full h-full object-cover"
+        className="hidden md:block w-full h-[100%] object-cover max-width-[90%]"
         autoPlay 
         loop 
         muted 
@@ -43,7 +43,7 @@ const Banner1 = () => {
       {/* Video para dispositivos móviles (< 768px) */}
       <video 
         ref={videoRef2}
-        className="md:hidden w-full h-full object-cover"
+        className="md:hidden w-full h-full object-cover max-width-[100%]"
         autoPlay 
         loop 
         muted 

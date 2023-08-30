@@ -8,7 +8,7 @@ const Formulario = () => {
   return (
     <div  className='bg-[#404040]  text-white border-t-[20px] border-[#1c2e60] '>
       <span  id='Formulario' className=' flex gap-4 text-center items-center justify-center text-[55px] m-4 font-thin '>Contacto <RiDraftFill className=' m-4 text-[55px]'/></span>
-      <p className='text-center text-gray-400 text-[25px] mb-10 font-thin '>Realiza el formulario nos comunicaremos a la brevedad</p>
+      <p className='text-center text-gray-400 text-[25px] mb-10 font-thin '>Realiza el formulario, nos comunicaremos a la brevedad</p>
       <div  className="md:grid grid-cols-3 md:grid-rows-1 mb-8 ">
         <div className='bg-white'>
           <iframe  width='100%' height='590px'  src='https://crm.zoho.com/crm/WebFormServeServlet?rid=ab9ffff6c56c4470d599b792c0f9089b8a29fc4805fdf067bd110e444a3a40begid1250c6f36c588699a4f2cad1500d2088c72dea3f78890524ab07eb17039e409a' className=''></iframe>
