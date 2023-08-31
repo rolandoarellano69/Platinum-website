@@ -13,7 +13,8 @@ const NovaCarrusel = () => {
             infiniteLoop={true}
             showThumbs={false}
             showStatus={false}
-            showArrows={false}
+            showArrows={true}
+            onSwipeMove={true}
             showIndicators={false}
             autoPlay={true}
             interval={3000}

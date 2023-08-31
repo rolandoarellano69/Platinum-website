@@ -78,14 +78,15 @@ function NovaPlusCarrusel() {
       </div>
       <div className=' md:flex items-center bg-[#404040] justify-center'>
       <Carousel
-           infiniteLoop={true}
-            showThumbs={false}
-            showStatus={false}
-            showArrows={false}
-            showIndicators={false}
-            autoPlay={true}
-            interval={3000}
-            className=" md:w-[100%] h-auto"
+          infiniteLoop={true}
+          showThumbs={false}
+          showStatus={false}
+          showArrows={true}
+          onSwipeMove={true}
+          showIndicators={false}
+          autoPlay={true}
+          interval={3000}
+          className=" md:w-[100%] h-auto "
           >
       <div className='w-full h-auto'>
               <img src={NovaPlusN1} alt="Nivel 1" className='w-full h-auto' />
