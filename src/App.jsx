@@ -26,7 +26,6 @@ const App = () => {
       <div>
 
         <div className='relative'>
-
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path='/aviso-privacidad' element={<Avisopriv />} />
@@ -47,16 +46,16 @@ const HomePage = () => {
           <Navbar />
           <Banner1 />
           <AcercaP />
-          <Nova/>
-          <NovaCarrusel/>
-          <NovaPlus/>
-          <NovaPlusCarrusel/>
-          <Amenidades/>
+          <Nova />
+          <NovaCarrusel />
+          <NovaPlus />
+          <NovaPlusCarrusel />
+          <Amenidades />
           <Tour360 />
-          <Mapa/>
-          <Formulario/>
-          <BackToStartBtn/>
-          <WhatsappBtn/>
+          <Mapa />
+          <Formulario />
+          <BackToStartBtn />
+          <WhatsappBtn />
           <Footer />
         </div>
       </div>

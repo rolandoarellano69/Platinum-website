@@ -3,7 +3,7 @@ import { RiFacebookCircleFill, RiInstagramLine, RiMapPin2Fill, RiPhoneFill } fro
 
 const Header = () => {
   return (
-    <header id='home' className='flex flex-col md:flex-row items-center justify-between md:h-[20px] h-[12vh] bg-[#A7A9AC] p-4 md:p-8 text-gray-200'>
+    <header id='home' className=' hidden  flex-col md:flex-row items-center justify-between md:h-[20px]  bg-[#A7A9AC] p-4 md:p-8 text-gray-200'>
       <div className='flex gap-4 mb-[5px]'>
         <RiFacebookCircleFill size={20} onClick={() => window.open('https://www.facebook.com/PlatinumResidencial')} className='cursor-pointer' />
         <RiInstagramLine size={20} onClick={() => window.open('https://www.instagram.com/platinumresidencial/')} className='cursor-pointer' />

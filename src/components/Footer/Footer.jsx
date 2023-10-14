@@ -10,21 +10,21 @@ const Footer = () => {
     <footer className="bg-[#1c2e60]">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
         <div className="md:flex md:justify-between mt-16">
-          <div className="mb-6 md:mb-0">
-            <Link to="/" class=" flex  gap-2 items-center">
+          <div className=" mb-6 md:mb-0">
+            <Link to="/" class=" flex items-center  gap-2 ">
               {/* <img src="/images/LOGO AUREO -01.png" class="h-8 mr-3" alt="FlowBite Logo" /> */}
               <img src={logoBanner} alt="" className='h-[100px] w-[164px] mb-0 ' />
-              <img src={Logofooter} alt="" className='h-[60px] w-[164px] mb-4 ' />
+              <img src={Logofooter} alt="" className='h-[60px] w-[144px] mb-4 ' />
             </Link>
-            <span className="self-center text-sm   text-gray-200 ">Platinum Residencial es un desarrollo <br /> inmobiliario de OBR Group</span>
+            <span className="self-center text-sm text-center flex justify-center items-center   text-gray-200 ">Platinum Residencial es un desarrollo <br /> inmobiliario de OBR Group</span>
             <div className='flex relative '>
               <RiPhoneFill className='mt-10 text-gray-200 text-[34px]  ' /> <span className=' text-[#B4B1B2] text-xl absolute bottom-0 left-10 '>663 113 8555 </span>
             </div>
           </div>
 
-          <div className="grid grid-cols-2  gap-16 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2  sm:gap-6 sm:grid-cols-3">
             <div className=' right-0'>
-              <h2 className="mb-6 text-sm m-8 text-gray-200 uppercase ">HORARIOS DE ATENCIÓN</h2>
+              <h2 className="mb-6 text-sm m-8 text-gray-200 uppercase text-center ">HORARIOS DE ATENCIÓN</h2>
               <table className='w-full m-8'>
                 <tbody >
                   <tr className='text-[#898783]' >

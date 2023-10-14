@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='relative top-0 left-0 right-0 bg-[#1c2e60] h-16 md:h-24 w-full flex items-center z-50'>
+    <header className='relative top-0 left-0 right-0 shadow-2xl bg-[#1c2e60] h-16 md:h-[70px] w-full flex items-center z-50'>
       <div className='ml-8'>
         <Logo />
       </div>

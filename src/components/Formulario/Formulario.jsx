@@ -7,7 +7,7 @@ import Peek3 from '../../assets/image/COMEDOR PLATINUM 4K.jpg'
 const Formulario = () => {
   return (
     <div  className='bg-[#404040]  text-white border-t-[20px] border-[#1c2e60] '>
-      <span  id='Formulario' className=' flex gap-4 text-center items-center justify-center text-[55px] m-4 font-thin '>Contacto <RiDraftFill className=' m-4 text-[55px]'/></span>
+      <span  id='Formulario' className=' flex gap-4 text-center items-center justify-center text-[45px] m-4 font-thin '>Contacto <RiDraftFill className=' m-4 text-[55px]'/></span>
       <p className='text-center text-gray-400 text-[25px] mb-10 font-thin '>Realiza el formulario, nos comunicaremos a la brevedad</p>
       <div  className="md:grid grid-cols-3 md:grid-rows-1 mb-8 ">
         <div className='bg-white'>
@@ -21,7 +21,7 @@ const Formulario = () => {
             showThumbs={false}
             showStatus={false}
             showIndicators={false}
-            showArrows={false}
+            showArrows={true}
             autoPlay={true}
             interval={3000}
             className=" w-full h-full md:h-[100%]"

@@ -4,9 +4,12 @@ import LogoPlatinum from '../../assets/image/logo platinum png-02.png';
 
 const AcercaP = () => {
   return (
-    <section className='bg-white'>
+<section className='bg-white overflow-x-hidden'>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-        <div className="order-first md:order-first">
+        {/* Ajustes para la imagen en dispositivos móviles */}
+        
+        {/* Versión de escritorio de la imagen */}
+        <div className="hidden md:block order-first md:order-first">
           <img
             src={FamilyPeek}
             alt="Familia Feliz"
