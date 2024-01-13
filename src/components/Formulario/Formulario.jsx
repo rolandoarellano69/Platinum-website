@@ -11,7 +11,7 @@ const Formulario = () => {
       <p className='text-center text-gray-400 text-[25px] mb-10 font-thin '>Realiza el formulario, nos comunicaremos a la brevedad</p>
       <div  className="md:grid grid-cols-3 md:grid-rows-1 mb-8 ">
         <div className='bg-white'>
-          <iframe  width='100%' height='590px'  src='https://crm.zoho.com/crm/WebFormServeServlet?rid=ab9ffff6c56c4470d599b792c0f9089b8a29fc4805fdf067bd110e444a3a40begid1250c6f36c588699a4f2cad1500d2088c72dea3f78890524ab07eb17039e409a' className=''></iframe>
+          <iframe  width='100%' height='590px'  src='https://forms.zohopublic.com/obrgroup/form/PlatinumResidencial/formperma/rWZBiNta5fy34hdxlfZvnoJIMp1U1qFoce-pO_dF5xo' className=''></iframe>
          
         </div>
         <div className="col-span-2 ">

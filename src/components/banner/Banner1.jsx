@@ -39,7 +39,7 @@ const Banner1 = () => {
         className="w-full h-full object-cover object-center" 
     />
 </div> */}
-    <div className=' relative w-10/12 md:w-7/10 '>
+    <div className=' relative  md:w-7/10 '>
 
         <video
           ref={videoRef1}
